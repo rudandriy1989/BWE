@@ -1,0 +1,1164 @@
+/*============    	АДАПТИВ    ===========*/
+@media(min-width:0px) and (max-width:320px) {
+	section#vertical_xs-sm{
+		top:0px;
+		position: fixed;
+		z-index: 2;
+		width: 100%;
+		margin: 0 auto;
+	 	.container{
+	 		height: 4390px;
+	 	 	margin: 0 auto;
+	 	 	max-width: 2px;
+			.vertical-line{
+				left:50%;
+				min-width: 2px;
+				padding: 0px;
+ 				display: inline-block;
+ 				white-space: nowrap;
+				height: 4390px;// или сколько нужно в пикселях или процентах
+		    	background-color: rgba(255, 255, 255, 0.15);
+			}
+		}
+	}
+	section#vertical_md{
+		display: none;
+	}
+	nav#down_menu{
+		display: none;
+	}
+	nav.navbar-fixed-top {
+		width: auto;
+    	background-color:rgba(18, 45, 71, 0.9);
+    		.menu{
+				img{
+    				position:absolute;
+    				height: 25px;
+    				width: 25px;
+    				margin: 13px auto;
+    			}
+	    		.dropdown-toggle{
+					color:#ffffff;
+					&:hover{
+						color:#19F5E8;
+					}
+					i{
+						padding-top: 17px;
+						padding-bottom: 17px;
+						font-size:17px;
+					}
+				}
+			    ul.dropdown-menu{
+			    	top:0px;
+			    	width: 100%;
+			    	background-color:rgba(18, 45, 71, 0.9);
+			    	padding-top: 45px;
+			    	padding-bottom: 30px;
+			    	border:none;
+			    	label.img_close{
+			    		text-align:right;
+			    		position: absolute;
+			    		right: 30px;
+			    		top:0px;
+			    	}
+			        li{
+			        	width: 100%;
+			        	text-align: center;
+			        	a{
+				        	color: #ffffff;
+				        	text-transform: uppercase;
+				        	padding: 15px;
+				        	.bold;
+				        	font-size: 14px;
+					        &:hover{
+								color:#19F5E8;
+								background: none;
+							}
+				        }
+			        }
+			    }
+			}
+	    &.sticky{
+	        margin-top:0px;
+	        position:fixed;
+	    }
+    }
+	section#First_screen{
+		padding-top: 100px;
+		.logo{
+			display:none;
+		}
+		h1{
+			font-size:42px;
+			letter-spacing: 2px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			line-height: 1.45;
+			br{
+				display: inline-block;
+			}
+		}
+		h2{
+			margin: 18px auto;
+			padding: 10px;
+			line-height: 1.5;
+		}
+		button.projects{
+			margin-bottom: 48px;
+		}
+	}
+	section#Services{
+		h1{
+			margin-bottom: 25px;
+		}
+		h4{
+			line-height: 1.5;
+			padding-left: 18px;
+			padding-right: 18px;
+			br{
+				display: none;
+			}
+		}
+		.commercial{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+		.domestic{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+		.industrial{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+	}
+	section#About{
+		padding-bottom: 30px;
+		p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		h4{
+			margin-left: 15px;
+		}
+		#myCarousel3{
+			.carousel-indicators{
+				bottom: 0px;
+				top:400px;
+			}
+			.carousel-control{
+				left:auto;
+				.carousel_control_right{
+					right:0px;
+				}
+			}
+		}
+		.offer{
+			br{
+				display: none;
+			}
+			li.check{
+				margin:40px 5px;
+			}
+		}
+	}
+	section#quote{
+  		background-position:  right -100px top;
+		.contractors{
+			margin-top: 55px;
+			margin-bottom: 40px;
+			margin-left: 15px;
+			margin-right: 15px;
+			padding-top: 27px;
+			height:auto;
+	  	}
+	}
+	section#reviewes{
+		h1{
+			margin-bottom: 0px;
+		}
+		h4{
+			padding-left:15px;
+			padding-right: 15px;
+			line-height: 1.5;
+		}
+		#myCarousel{
+			padding-bottom: 112px;
+			.carousel-indicators{
+				margin-bottom:70px;
+				bottom:0px;
+			}
+			.carousel-inner{
+				.item{
+					.slide{
+						display:none;
+					}
+					.slide_visible_xs{
+						margin-top:75px;
+						min-width: 93%;
+						padding-left:20px;
+						padding-right:20px;
+						h3{
+							font-size: 18px;
+						}
+						p{
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+	section#contact{
+		h1{
+			margin-bottom:20px;
+		}
+		h3{
+			margin-bottom: 26px;
+			margin-top: 32px;
+		}
+		.form-group{
+			input[name="name"]{
+				margin-bottom:20px;
+			}		
+			input[name="email"]{
+				padding-left: 30px;
+			}
+			textarea[type="message"]{
+				margin-top: 20px;
+			}
+			.btn_center{
+				button[type="submit"]{
+					margin-top: 60px;
+					margin-bottom: 80px;
+				}
+			}
+		}
+	}
+}
+@media(min-width:321px) and (max-width:480px) {
+	section#vertical_xs-sm{
+		top:0px;
+		position: fixed;
+		z-index: 2;
+		width: 100%;
+		margin: 0 auto;
+	 	.container{
+	 		height: 4390px;
+	 	 	margin: 0 auto;
+			.vertical-line{
+				left:50%;
+				max-width: 2px;
+				padding: 0px;
+ 				display: inline-block;
+ 				white-space: nowrap;
+				height: 4390px;// или сколько нужно в пикселях или процентах
+		    	background-color: rgba(255, 255, 255, 0.15);
+			}
+		}
+	}
+	section#vertical_md{
+		display: none;
+	}
+	nav#down_menu{
+		display: none;
+	}
+	nav.navbar-fixed-top {
+		width: 100%;
+    	background-color:rgba(18, 45, 71, 0.9);
+    		.menu{
+    			img{
+    				position:absolute;
+    				height: 25px;
+    				width: 25px;
+    				margin: 13px auto;
+    			}
+	    		.dropdown-toggle{
+					color:#ffffff;
+					&:hover{
+						color:#19F5E8;
+					}
+					i{
+						padding-top: 17px;
+						padding-bottom: 17px;
+						font-size:17px;
+					}
+				}
+			    ul.dropdown-menu{
+			    	top:0px;
+			    	width: 100%;
+			    	background-color:rgba(18, 45, 71, 0.9);
+			    	padding-top: 45px;
+			    	padding-bottom: 30px;
+			    	border:none;
+			    	label.img_close{
+			    		text-align:right;
+			    		position: absolute;
+			    		right: 30px;
+			    		top:0px;
+			    	}
+			        li{
+			        	width: 100%;
+			        	text-align: center;
+			        	a{
+			        	color: #ffffff;
+			        	text-transform: uppercase;
+			        	padding: 15px;
+			        	.bold;
+			        	font-size: 14px;
+				        	&:hover{
+								color:#19F5E8;
+							}
+			        	}
+			        }
+			    }
+			}
+	    &.sticky{
+	        margin-top:0px;
+	        position:fixed;
+	    }
+    }
+	section#First_screen{
+		padding-top: 100px;
+		.logo{
+			display:none;
+		}
+		h1{
+			font-size:42px;
+			letter-spacing: 2px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			line-height: 1.45;
+			br{
+				display: inline-block;
+			}
+		}
+		h2{
+			margin: 18px auto;
+			padding: 20px;
+			line-height: 1.5;
+		}
+		button.projects{
+			margin-bottom: 48px;
+		}
+	}
+	section#Services{
+		h1{
+			margin-bottom: 25px;
+		}
+		h4{
+			line-height: 1.5;
+			padding-left: 18px;
+			padding-right: 18px;
+			br{
+				display: none;
+			}
+		}
+		.commercial{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+		.domestic{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+		.industrial{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+	}
+	section#About{
+		padding-bottom: 30px;
+		p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		h4{
+			margin-left: 15px;
+		}
+		#myCarousel3{
+			.carousel-control{
+				left:auto;
+				.carousel_control_right{
+					right:0px;
+				}
+			}
+		}
+		.offer{
+			br{
+				display: none;
+			}
+			li.check{
+				margin:40px 5px;
+			}
+		}
+	}
+	section#quote{
+  		background-position:  right -100px top;
+		.contractors{
+			margin-top: 55px;
+			margin-bottom: 40px;
+			margin-left: 15px;
+			margin-right: 15px;
+			padding-top: 27px;
+			height:auto;
+	  	}
+	}
+	section#reviewes{
+		h1{
+			margin-bottom: 0px;
+		}
+		h4{
+			padding-left:15px;
+			padding-right: 15px;
+			line-height: 1.5;
+		}
+		#myCarousel{
+			padding-bottom: 112px;
+			.carousel-indicators{
+				margin-bottom:70px;
+				bottom:0px;
+			}
+			.carousel-inner{
+				.item{
+					.slide{
+						display:none;
+					}
+					.slide_visible_xs{
+						margin-top:75px;
+						min-width: 93%;
+						padding-left:20px;
+						padding-right:20px;
+						h3{
+							font-size: 18px;
+						}
+						p{
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+	section#contact{
+		h1{
+			margin-bottom:20px;
+		}
+		h3{
+			margin-bottom: 26px;
+			margin-top: 32px;
+		}
+		.form-group{
+			input[name="name"]{
+				margin-bottom:20px;
+			}		
+			input[name="email"]{
+				padding-left: 30px;
+			}
+			textarea[type="message"]{
+				margin-top: 20px;
+			}
+			.btn_center{
+				button[type="submit"]{
+					margin-top: 60px;
+					margin-bottom: 80px;
+				}
+			}
+		}
+	}
+}
+@media(min-width:481px) and (max-width:768px) {
+	section#vertical_xs-sm{
+		top:0px;
+		position: fixed;
+		z-index: 2;
+		width: 100%;
+		margin: 0 auto;
+	 	.container{
+	 		height: 4390px;
+	 	 	margin: 0 auto;
+			.vertical-line{
+				left:50%;
+				max-width: 2px;
+				padding: 0px;
+ 				display: inline-block;
+ 				white-space: nowrap;
+				height: 4390px;// или сколько нужно в пикселях или процентах
+		    	background-color: rgba(255, 255, 255, 0.15);
+			}
+		}
+	}
+	section#vertical_md{
+		display: none;
+	}
+	nav#down_menu{
+		display: none;
+	}
+	nav.navbar-fixed-top {
+		width: auto;
+    	background-color:rgba(18, 45, 71, 0.9);
+    		.menu{
+    			img{
+    				position:absolute;
+    				height: 25px;
+    				width: 25px;
+    				margin: 13px auto;
+    			}
+	    		.dropdown-toggle{
+					color:#ffffff;
+					&:hover{
+						color:#19F5E8;
+					}
+					i{
+						padding-top: 17px;
+						padding-bottom: 17px;
+						font-size:17px;
+					}
+				}
+			    ul.dropdown-menu{
+			    	top:0px;
+			    	width: 100%;
+			    	background-color:rgba(18, 45, 71, 0.9);
+			    	padding-top: 45px;
+			    	padding-bottom: 30px;
+			    	border:none;
+			    	label.img_close{
+			    		text-align:right;
+			    		position: absolute;
+			    		right: 30px;
+			    		top:0px;
+			    	}
+			        li{
+			        	width: 100%;
+			        	text-align: center;
+			        	a{
+			        	color: #ffffff;
+			        	text-transform: uppercase;
+			        	padding: 15px;
+			        	.bold;
+			        	font-size: 14px;
+				        	&:hover{
+								color:#19F5E8;
+							}
+			        	}
+			        }
+			    }
+			}
+	    &.sticky{
+	        margin-top:0px;
+	        position:fixed;
+	    }
+    }
+	section#First_screen{
+		padding-top: 100px;
+		.logo{
+			display:none;
+		}
+		h1{
+			font-size:42px;
+			letter-spacing: 2px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			line-height: 1.3;
+			br{
+				display: inline-block;
+			}
+		}
+		h2{
+			margin: 18px auto;
+		}
+		button.projects{
+			margin-bottom: 48px;
+		}
+	}
+	section#Services{
+		h1{
+			margin-bottom: 25px;
+		}
+		h4{
+			line-height: 1.5;
+			padding-left: 18px;
+			padding-right: 18px;
+			br{
+				display: none;
+			}
+		}
+		.commercial{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+		.domestic{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+		.industrial{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			h2{
+				text-align: center;
+				margin-bottom: 28px;
+			}
+			li{
+				line-height: 1.2;
+			}
+		}
+	}
+	section#About{
+		padding-bottom: 30px;
+		p{
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+		h4{
+			margin-left: 15px;
+		}
+		#myCarousel3{
+			.carousel-indicators{
+				bottom:-162px;
+			}
+			.carousel-control{
+				left:auto;
+				.carousel_control_right{
+					right:0px;
+				}
+			}
+		}
+		.offer{
+			br{
+				display: none;
+			}
+			li.check{
+				margin:40px 5px;
+			}
+		}
+	}
+	section#quote{
+  		background-position:  right -14px top;
+		.contractors{
+			margin-top: 55px;
+			margin-bottom: 40px;
+			margin-left: 15px;
+			margin-right: 15px;
+			padding-top: 27px;
+			height:auto;
+	  	}
+	}
+	section#reviewes{
+		h1{
+			margin-bottom: 0px;
+		}
+		h4{
+			padding-left:15px;
+			padding-right: 15px;
+			line-height: 1.5;
+		}
+		#myCarousel{
+			padding-bottom: 112px;
+			.carousel-indicators{
+				margin-bottom:70px;
+				bottom:0px;
+			}
+			.carousel-inner{
+				.item{
+					.slide{
+						display:none;
+					}
+					.slide_visible_xs{
+						margin-top:75px;
+						min-width: 93%;
+						padding-left:20px;
+						padding-right:20px;
+						h3{
+							font-size: 18px;
+						}
+						p{
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+	section#contact{
+		h1{
+			margin-bottom:20px;
+		}
+		h3{
+			margin-bottom: 26px;
+			margin-top: 32px;
+		}
+		.form-group{
+			input[name="name"]{
+				margin-bottom:20px;
+			}		
+			input[name="email"]{
+				padding-left: 30px;
+			}
+			textarea[type="message"]{
+				margin-top: 20px;
+			}
+			.btn_center{
+				button[type="submit"]{
+					margin-top: 60px;
+					margin-bottom: 80px;
+				}
+			}
+		}
+	}
+}
+@media(min-width:769px) and (max-width:991px)  {
+	section#vertical_sm{
+		top:0px;
+		position: fixed;
+		z-index: 2;
+		width: 100%;
+		margin: 0 auto;
+	 	.container{
+	 		height: 4390px;
+	 	 	margin: 0 auto;
+			.vertical-line{
+				margin-left: 0px;
+				margin-right: 0px;
+				left: 9%;
+				min-width: 285px;
+ 				display: inline-block;
+ 				white-space: nowrap;
+				height: 4390px;// или сколько нужно в пикселях или процентах
+		    	border-left: 1px solid rgba(255, 255, 255, 0.15);
+		    	border-right: 1px solid rgba(255, 255, 255, 0.15);
+		    }
+		}
+	}
+	section#vertical_md{
+		display: none;
+	}
+	nav#down_menu{
+		display: none;
+	}
+	nav.navbar-fixed-top {
+    	background-color:rgba(18, 45, 71, 0.9);
+    		.menu{
+    			img{
+    				position:absolute;
+    				height: 25px;
+    				width: 25px;
+    				margin: 13px auto;
+    			}
+	    		.dropdown-toggle{
+					color:#ffffff;
+					&:hover{
+						color:#19F5E8;
+					}
+					i{
+						padding-top: 17px;
+						padding-bottom: 17px;
+						font-size:17px;
+						transform: scale(1.5,1);
+					}
+				}
+			    ul.dropdown-menu{
+			    	top:0px;
+			    	width: 100%;
+			    	background-color:rgba(18, 45, 71, 0.9);
+			    	padding-top: 45px;
+			    	padding-bottom: 30px;
+			    	border:none;
+			    	label.img_close{
+			    		text-align:right;
+			    		position: absolute;
+			    		right: 30px;
+			    		top:0px;
+			    	}
+			        li{
+			        	width: 100%;
+			        	text-align: center;
+			        	a{
+			        	color: #ffffff;
+			        	text-transform: uppercase;
+			        	padding: 15px;
+			        	.bold;
+			        	font-size: 14px;
+				        	&:hover{
+								color:#19F5E8;
+								background: none;
+							}
+							&:focus{
+								background-color:none;
+							}
+			        	}
+			        }
+			    }
+			}
+	    &.sticky{
+	        margin-top:0px;
+	        position:fixed;
+	    }
+    }
+	section#First_screen{
+		padding-top: 135px;
+		.logo{
+			display:none;
+		}
+		h1{
+			font-size:42px;
+			letter-spacing: 1.9px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			line-height: 1.4;
+			br{
+				display: none;
+			}
+		}
+		h2{
+			margin-top: 30px;
+			margin-bottom: 50px;
+		}
+		button.projects{
+			margin-bottom: 160px;
+		}
+	}
+	section#Services{
+		h1{
+			margin-bottom: 25px;
+		}
+		h4{
+			line-height: 1.4;
+			padding-left: 18px;
+			padding-right: 18px;
+			br{
+				display: none;
+			}
+		}
+		.commercial{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			padding-bottom: 55px;
+			h2{
+				text-align: center;
+			}
+			ul{
+				list-style-position: inside;
+  				-moz-column-count: 2; /* Firefox */
+  				-webkit-column-count: 2; /* Safari and Chrome */
+  				column-count: 2;
+			}
+		}
+		.domestic{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			padding-bottom: 55px;
+			h2{
+				text-align: center;
+			}
+			ul{
+				list-style-position: inside;
+  				-moz-column-count: 2; /* Firefox */
+  				-webkit-column-count: 2; /* Safari and Chrome */
+  				column-count: 2;
+			}
+		}
+		.industrial{
+			height: auto;
+			margin-left: 15px;
+			margin-right: 15px;
+			padding-bottom: 55px;
+			h2{
+				text-align: center;
+			}
+			ul{
+				list-style-position: inside;
+  				-moz-column-count: 2; /* Firefox */
+  				-webkit-column-count: 2; /* Safari and Chrome */
+  				column-count: 2;
+			}
+		}
+	}
+	section#About{
+		.col_sm_8{
+			min-width: 450px;
+			max-width: 450px;
+			margin:0 auto;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		padding-bottom: 25px;
+		p{
+			margin-bottom: 30px;
+		}
+
+		#myCarousel3{
+			.carousel-indicators{
+				top:535px;
+			}
+		}
+		.offer{
+			margin-top: 35px;
+			margin-bottom: 47px;
+			br{
+				display: none;
+			}
+			li.check{
+				margin:44px 30px;
+			}
+			p{
+				margin-top:40px;
+				width:85%;
+			}
+		}
+	}
+	section#quote{
+		.contractors{
+			min-width: 705px;
+			margin-top: 55px;
+			margin-bottom: 40px;
+			margin-left: 30px;
+			margin-right: 0px;
+			padding-top: 27px;
+			height:auto;
+	  	}
+	}
+	section#reviewes{
+		h4{
+			padding-left:15px;
+			padding-right: 15px;
+			line-height: 1.5;
+			br{
+				display:none;
+			}
+		}
+		#myCarousel{
+			padding-bottom: 85px;
+			.carousel-indicators{
+				bottom:38px;
+				margin-bottom: 0px;
+			}
+			.carousel-inner{
+				.item{
+					.slide{
+						width: auto;
+						display:none;
+						margin-top:25px;
+						margin-left: 15px;
+						margin-right: 15px;
+					}
+					.slide_visible_xs{
+						width: auto;
+						padding-left:65px;
+						padding-right:65px;
+						margin-left: 15px;
+						margin-right: 15px;
+						margin-top: 85px;
+						h3{
+							font-size: 18px;
+						}
+						p{
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+	section#contact{
+		h1{
+			margin-bottom:25px;
+		}
+		.form-group{
+			input[name="name"]{
+				margin-bottom:20px;
+			}		
+			input[name="email"]{
+				padding-left: 30px;
+			}
+			textarea[type="message"]{
+				margin-top: 20px;
+			}
+			.btn_center{
+				button[type="submit"]{
+					margin-top: 60px;
+					margin-bottom: 60px;
+				}
+			}
+		}
+	}
+}
+@media(min-width:1200px) {
+	section#vertical_lg{
+		top:0px;
+		position: absolute;
+	 	z-index: 2;
+		width: 100%;
+	 	margin: 0 auto;
+	 	.container{
+	 		height: 4390px;
+	 	 	margin: 0 auto;
+			.vertical-line{
+	 			display: inline-block;
+	 			white-space: nowrap;
+				height: 4390px;// или сколько нужно в пикселях или процентах
+			    border-left: 1px solid rgba(255, 255, 255, 0.15);
+			    border-right: 1px solid rgba(255, 255, 255, 0.15); 
+			}
+		}
+	}
+	section#vertical_md{
+		display: none;
+	}
+	nav.navbar-fixed-top {
+		.container{
+			width: 100%;
+		}
+    	background-color:none;
+    	padding-left: 40px;
+    	padding-right: 40px;
+    	.menu{
+    		img.img-responsive{
+    			display:none;
+    		}
+	    	.dropdown-toggle{
+				color:#ffffff;
+				&:hover{
+					color:#19F5E8;
+				}
+				i{
+					padding-top: 17px;
+					padding-bottom: 17px;
+					font-size:17px;
+					transform: scale(1.5,1);
+				}
+			}
+			ul.dropdown-menu{
+			    top:0px;
+			    width: 100%;
+			    background-color:rgba(18, 45, 71, 0.9);
+			    padding-top: 45px;
+			    padding-bottom: 30px;
+			    border:none;
+			    label.img_close{
+			    	text-align:right;
+			    	position: absolute;
+			    	right: 10px;
+			    	top:10px;
+			    	cursor:pointer;
+			    }
+			    li{
+			        width: 100%;
+			        text-align: center;
+			        a{
+			        color: #ffffff;
+			        text-transform: uppercase;
+			        padding: 15px;
+			        .bold;
+			        font-size: 14px;
+				    	&:hover{
+							color:#19F5E8;
+						}
+			      	}
+			    }
+			}
+		}
+		&.sticky{
+	        display:none;
+	    }
+   	}
+	nav#down_menu{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	footer#contacts{
+		.container{
+			width: 100%;
+			padding-left: 50px;
+			padding-right: 50px;
+		}
+	}
+	.back-top{
+		cursor: pointer;
+		#back-top {
+			width: 50px;
+			height: 50px;
+			position: fixed; bottom: 110px; right: 3.125%;
+			z-index:7;
+			border-bottom:2px solid #3AE2CE;
+			background: rgba(11, 34, 57, 0.8);
+			&:hover {
+				background: rgba(11, 34, 57, 1); 
+			}
+			a{ 
+				-webkit-transition: 1s; 
+				-moz-transition: 1s; 
+				transition: 1s;
+				img{
+					padding:19px 16px;
+				}
+			}
+		}
+	}
+}

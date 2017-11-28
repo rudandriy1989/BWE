@@ -1,0 +1,1890 @@
+/*===================================    ШРИФТЫ    ===========*/
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('fonts/ProximaNovaBold.eot');
+  src: url('fonts/ProximaNovaBold.eot') format('embedded-opentype'), url('fonts/ProximaNovaBold.woff2') format('woff2'), url('fonts/ProximaNovaBold.woff') format('woff'), url('fonts/ProximaNovaBold.ttf') format('truetype'), url('fonts/ProximaNovaBold.svg#ProximaNovaBold') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url('fonts/ProximaNovaLight.eot');
+  src: url('fonts/ProximaNovaLight.eot') format('embedded-opentype'), url('fonts/ProximaNovaLight.woff2') format('woff2'), url('fonts/ProximaNovaLight.woff') format('woff'), url('fonts/ProximaNovaLight.ttf') format('truetype'), url('fonts/ProximaNovaLight.svg#ProximaNovaLight') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('fonts/ProximaNovaRegular.eot');
+  src: url('fonts/ProximaNovaRegular.eot') format('embedded-opentype'), url('fonts/ProximaNovaRegular.woff2') format('woff2'), url('fonts/ProximaNovaRegular.woff') format('woff'), url('fonts/ProximaNovaRegular.ttf') format('truetype'), url('fonts/ProximaNovaRegular.svg#ProximaNovaRegular') format('svg');
+}
+.bold {
+  font-family: 'ProximaNovaBold';
+}
+.med {
+  font-family: 'ProximaNovaRegular';
+}
+.light {
+  font-family: 'ProximaNovaLight';
+}
+/*---------------------------Базові налаштування-----------------------*/
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+body {
+  background-color: none;
+}
+/*======================================    Полоси    ===========*/
+/*=====================================    First_screen     ===========*/
+section#First_screen {
+  cursor: url("../img/cursor-copy.png"), auto;
+  display: block;
+  background-blend-mode: multiply;
+  background-image: url("../img/bgr1/Image1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(9, 42, 76, 0.75);
+}
+section#First_screen .container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+section#First_screen .logo {
+  background-image: url("../img/logo2.png");
+  margin: 70px  auto 15px auto;
+  /*Отступ от верхнего, правого, нижнего и левого края.*/
+  text-align: center;
+  height: 65px;
+  width: 65px;
+  display: block;
+  -moz-border-radius: 1000px;
+  /* Firefox */
+  -webkit-border-radius: 1000px;
+  /* Safari, Chrome */
+  -khtml-border-radius: 1000px;
+  /* KHTML */
+  border-radius: 1000px;
+  /* CSS3 */
+  -webkit-box-shadow: 0px 0px 300px 118px rgba(141, 251, 244, 0.2);
+  -moz-box-shadow: 0px 0px 300px 118px rgba(141, 251, 244, 0.2);
+  box-shadow: 0px 0px 300px 118px rgba(141, 251, 244, 0.2);
+  position: relative;
+  z-index: 8;
+}
+section#First_screen .logo:hover {
+  background-image: url("../img/logo3.png");
+  -moz-transition: all 0.5s ease-in-out;
+  /* Firefox  */
+  -webkit-transition: all 0.5s ease-in-out;
+  /* Safari, Android и iOS */
+  -o-transition: all 0.5s ease-in-out;
+  /* Opera */
+  transition: all 0.5s ease-in-out;
+  /* else*/
+}
+section#First_screen h1 {
+  color: #FFFFFF;
+  font-size: 70px;
+  font-family: 'ProximaNovaBold';
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 17px;
+  margin-bottom: 24px;
+  line-height: 0.9;
+}
+section#First_screen h1 br {
+  display: none;
+}
+section#First_screen h2 {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  font-family: 'ProximaNovaLight';
+  margin-top: 0px;
+  margin-bottom: 42px;
+}
+section#First_screen button.projects {
+  background-color: rgba(11, 34, 57, 0.65);
+  background-blend-mode: multiply;
+  margin: 0 auto;
+  margin-bottom: 55px;
+  width: 246px;
+  height: 58px;
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid #19F5E8;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+}
+section#First_screen button.projects h4 {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'ProximaNovaLight';
+  text-transform: uppercase;
+}
+section#First_screen nav#down_menu {
+  position: relative;
+  z-index: 7;
+  background: #17314B;
+  opacity: 1;
+  height: 50px;
+}
+section#First_screen nav#down_menu ul {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  white-space: nowrap;
+}
+section#First_screen nav#down_menu ul li.img_logo img {
+  height: 25px;
+  width: 25px;
+}
+section#First_screen nav#down_menu ul a {
+  display: inline-block;
+  padding: 15px;
+  color: #ffffff;
+  margin-top: 0px;
+}
+section#First_screen nav#down_menu ul a li {
+  font-family: 'ProximaNovaBold';
+  text-transform: uppercase;
+  font-size: 14px;
+}
+section#First_screen nav#down_menu ul a:hover {
+  text-decoration: none;
+  color: #19F5E8;
+  background-color: #3D5A76;
+}
+section#First_screen nav#down_menu ul p {
+  color: #19F5E8;
+  font-size: 14px;
+  font-family: 'ProximaNovaBold';
+  margin: 15px auto;
+}
+section#First_screen nav#down_menu ul.socials a {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+section#First_screen nav#down_menu ul.socials a i {
+  color: #19F5E8;
+}
+section#First_screen nav#down_menu.sticky {
+  position: relative;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 7;
+  opacity: 0.9;
+}
+section#First_screen nav#down_menu.sticky .sticky1 {
+  right: 0px;
+  position: absolute;
+  width: auto;
+}
+section#First_screen nav#down_menu.sticky ul {
+  height: 50px;
+}
+section#First_screen nav#down_menu.sticky ul li.img_logo {
+  margin-left: 30px;
+}
+section#First_screen nav#down_menu.sticky ul.socials {
+  display: none;
+}
+/*=====================================    Services    ===========*/
+section#Services {
+  position: relative;
+  z-index: 3;
+  color: #2D4052;
+  padding-bottom: 70px;
+}
+section#Services .line {
+  margin: 70px auto 26px auto;
+  width: 50px;
+  border-top: 5px solid #19F5E8;
+}
+section#Services h1 {
+  text-transform: uppercase;
+  font-family: 'ProximaNovaBold';
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 26px;
+}
+section#Services h4 {
+  font-family: 'ProximaNovaLight';
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 58px;
+}
+section#Services .commercial {
+  background: none;
+  height: 650px;
+  border: 1px solid #BFCFDE;
+}
+section#Services .commercial h2 {
+  text-transform: uppercase;
+  font-family: 'ProximaNovaBold';
+  font-size: 22px;
+  margin: 45px 15px;
+}
+section#Services .commercial ul {
+  padding-left: 30px;
+}
+section#Services .commercial ul li {
+  color: #1CE9DD;
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-family: 'ProximaNovaLight';
+}
+section#Services .commercial ul li span {
+  color: #2D4052;
+}
+section#Services .commercial:hover {
+  display: block;
+  overflow: hidden;
+  background-blend-mode: multiply;
+  background-image: url("../img/1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(131, 141, 151, 0.5);
+  -moz-transition: all 0.5s ease-in-out;
+  /* Firefox  */
+  -webkit-transition: all 0.5s ease-in-out;
+  /* Safari, Android и iOS */
+  -o-transition: all 0.5s ease-in-out;
+  /* Opera */
+  transition: all 0.5s ease-in-out;
+  /* else*/
+}
+section#Services .commercial:hover ul li span {
+  color: #ffffff;
+}
+section#Services .commercial:hover h2 {
+  color: #ffffff;
+}
+section#Services .domestic {
+  background: none;
+  height: 650px;
+  border: 1px solid #BFCFDE;
+}
+section#Services .domestic h2 {
+  text-transform: uppercase;
+  font-family: 'ProximaNovaBold';
+  font-size: 22px;
+  margin: 45px 15px;
+}
+section#Services .domestic ul {
+  padding-left: 30px;
+}
+section#Services .domestic ul li {
+  color: #1CE9DD;
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-family: 'ProximaNovaLight';
+}
+section#Services .domestic ul li span {
+  color: #2D4052;
+}
+section#Services .domestic:hover {
+  display: block;
+  overflow: hidden;
+  background-blend-mode: multiply;
+  background-image: url("../img/LED-Lighting-L.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(131, 141, 151, 0.5);
+  -moz-transition: all 0.5s ease-in-out;
+  /* Firefox  */
+  -webkit-transition: all 0.5s ease-in-out;
+  /* Safari, Android и iOS */
+  -o-transition: all 0.5s ease-in-out;
+  /* Opera */
+  transition: all 0.5s ease-in-out;
+  /* else*/
+}
+section#Services .domestic:hover ul li span {
+  color: #ffffff;
+}
+section#Services .domestic:hover h2 {
+  color: #ffffff;
+}
+section#Services .industrial {
+  background: none;
+  height: 650px;
+  border: 1px solid #BFCFDE;
+}
+section#Services .industrial h2 {
+  text-transform: uppercase;
+  font-family: 'ProximaNovaBold';
+  font-size: 22px;
+  margin: 45px 15px;
+}
+section#Services .industrial ul {
+  padding-left: 30px;
+}
+section#Services .industrial ul li {
+  color: #1CE9DD;
+  font-size: 16px;
+  margin-bottom: 14px;
+  font-family: 'ProximaNovaLight';
+}
+section#Services .industrial ul li span {
+  color: #2D4052;
+}
+section#Services .industrial:hover {
+  display: block;
+  overflow: hidden;
+  background-blend-mode: multiply;
+  background-image: url("../img/timthumb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(131, 141, 151, 0.5);
+  -moz-transition: all 0.5s ease-in-out;
+  /* Firefox  */
+  -webkit-transition: all 0.5s ease-in-out;
+  /* Safari, Android и iOS */
+  -o-transition: all 0.5s ease-in-out;
+  /* Opera */
+  transition: all 0.5s ease-in-out;
+  /* else*/
+}
+section#Services .industrial:hover ul li span {
+  color: #ffffff;
+}
+section#Services .industrial:hover h2 {
+  color: #ffffff;
+}
+/*=====================================    About    ===========*/
+section#About {
+  background-color: #273B4D;
+  color: #ffffff;
+  padding-bottom: 85px;
+}
+section#About .line {
+  margin: 70px auto 30px auto;
+  width: 50px;
+  border-top: 5px solid #19F5E8;
+}
+section#About h1 {
+  text-transform: uppercase;
+  font-family: 'ProximaNovaBold';
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+section#About p {
+  font-size: 16px;
+  font-family: 'ProximaNovaRegular';
+  margin-bottom: 29px;
+}
+section#About h4 {
+  margin: 0px;
+  color: #19F5E8;
+  font-size: 18px;
+}
+section#About .offer {
+  display: inline-block;
+  list-style-type: none;
+  background-color: #1F3243;
+  width: 100%;
+  margin-top: 37px;
+}
+section#About .offer li.check {
+  margin: 40px;
+  color: #19F5E8;
+  width: 37px;
+  height: 37px;
+  border: 3px solid #19F5E8;
+  -moz-border-radius: 100%;
+  /* Firefox */
+  -webkit-border-radius: 100%;
+  /* Safari, Chrome */
+  -khtml-border-radius: 100%;
+  /* KHTML */
+  border-radius: 100%;
+  /* CSS3 */
+}
+section#About .offer li.check i {
+  margin: 9px;
+}
+section#About .offer p {
+  margin-top: 37px;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  font-size: 18px;
+  font-family: 'ProximaNovaBold';
+}
+section#About #myCarousel3 {
+  position: relative;
+  z-index: 5;
+  height: 100%;
+}
+section#About #myCarousel3 img {
+  min-width: 130%;
+  width: auto;
+}
+section#About #myCarousel3 .carousel-indicators {
+  position: absolute;
+  bottom: -175px;
+}
+section#About #myCarousel3 .carousel-indicators li {
+  background-color: #FFFFFF;
+  border: none;
+}
+section#About #myCarousel3 .carousel-indicators li.active {
+  background-color: #1BD1C8;
+}
+section#About #myCarousel3 .carousel-control {
+  position: absolute;
+  text-align: center;
+  opacity: 1;
+  background: none;
+}
+section#About #myCarousel3 .carousel-control .carousel_control_left {
+  cursor: pointer;
+  margin-left: 20px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 41%;
+  border-bottom: 2px solid #19F5E8;
+  background-blend-mode: multiply;
+  background-color: rgba(39, 59, 77, 0.7);
+}
+section#About #myCarousel3 .carousel-control .carousel_control_left i {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+section#About #myCarousel3 .carousel-control .carousel_control_right {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  position: absolute;
+  top: 41%;
+  border-bottom: 2px solid #19F5E8;
+  background-blend-mode: multiply;
+  background-color: rgba(39, 59, 77, 0.7);
+}
+section#About #myCarousel3 .carousel-control .carousel_control_right i {
+  padding-top: 16px;
+  padding-bottom: 15px;
+}
+section#About .new {
+  padding-left: 30px;
+}
+/*======================================    quote    ===========*/
+section#quote {
+  position: relative;
+  z-index: 3;
+  display: block;
+  background-blend-mode: multiply;
+  background-image: url("../img/ellmp.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(150, 161, 173, 0.8);
+}
+section#quote .contractors {
+  background-color: rgba(39, 59, 77, 0.5);
+  margin-top: 105px;
+  margin-bottom: 120px;
+  border-left: 5px solid #19F5E8;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-left: 15px;
+  padding-bottom: 30px;
+}
+section#quote .contractors h1 {
+  color: #ffffff;
+  font-family: 'ProximaNovaBold';
+  font-size: 32px;
+  text-transform: uppercase;
+  line-height: 1.3;
+  margin: 0px;
+}
+/*======================================    reviwes    ===========*/
+section#reviewes {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+}
+section#reviewes .line {
+  margin: 70px auto 30px auto;
+  width: 50px;
+  border-top: 5px solid #19F5E8;
+}
+section#reviewes h1 {
+  font-family: 'ProximaNovaBold';
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+section#reviewes h4 {
+  font-family: 'ProximaNovaLight';
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+section#reviewes #myCarousel {
+  padding-bottom: 135px;
+}
+section#reviewes #myCarousel .carousel-indicators {
+  margin-bottom: 50px;
+}
+section#reviewes #myCarousel .carousel-indicators li {
+  border: 1px solid #384A5B;
+}
+section#reviewes #myCarousel .carousel-indicators li.active {
+  background-color: #1BDCD1;
+  border: none;
+}
+section#reviewes #myCarousel .carousel-inner .item {
+  text-align: center;
+}
+section#reviewes #myCarousel .carousel-inner .item .slide {
+  width: 30%;
+  border: 1px solid #BFCFDE;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 130px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+section#reviewes #myCarousel .carousel-inner .item .slide h3 {
+  position: relative;
+  top: -51px;
+  font-family: 'ProximaNovaBold';
+  font-size: 18px;
+}
+section#reviewes #myCarousel .carousel-inner .item .slide p {
+  position: relative;
+  top: -40px;
+  font-family: 'ProximaNovaLight';
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs {
+  width: 30%;
+  border: 1px solid #BFCFDE;
+  margin-top: 130px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs h3 {
+  position: relative;
+  top: -51px;
+  font-family: 'ProximaNovaBold';
+  font-size: 18px;
+}
+section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs p {
+  position: relative;
+  top: -40px;
+  font-family: 'ProximaNovaLight';
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+section#reviewes #myCarousel .carousel-inner .item .avatar {
+  position: relative;
+  top: -46px;
+  border: 2px solid #1BDCD1;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  -moz-border-radius: 100%;
+  /* Firefox */
+  -webkit-border-radius: 100%;
+  /* Safari, Chrome */
+  -khtml-border-radius: 100%;
+  /* KHTML */
+  border-radius: 100%;
+  /* CSS3 */
+}
+section#reviewes #myCarousel .carousel-inner .item .avatar img {
+  width: 100%;
+  height: auto;
+  -moz-border-radius: 100%;
+  /* Firefox */
+  -webkit-border-radius: 100%;
+  /* Safari, Chrome */
+  -khtml-border-radius: 100%;
+  /* KHTML */
+  border-radius: 100%;
+  /* CSS3 */
+}
+/*=====================================    contact    ===========*/
+section#contact {
+  color: #ffffff;
+  display: block;
+  background-blend-mode: multiply;
+  background-image: url("../img/974716481.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(49, 75, 101, 0.1);
+}
+section#contact .line {
+  margin: 70px auto 27px auto;
+  width: 50px;
+  border-top: 5px solid #19F5E8;
+}
+section#contact h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'ProximaNovaBold';
+  margin-bottom: 38px;
+  text-align: center;
+}
+section#contact p {
+  font-family: 'ProximaNovaLight';
+  font-size: 16px;
+  text-align: center;
+}
+section#contact h3 {
+  font-size: 22px;
+  font-family: 'ProximaNovaBold';
+  margin: 36px auto;
+  text-align: center;
+}
+section#contact .form-group {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 0px;
+}
+section#contact .form-group input[name="name"] {
+  height: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  border: none;
+  font-family: 'ProximaNovaLight';
+  font-size: 16px;
+  margin-right: 30px;
+  -moz-border-radius: 0px;
+  /* Firefox */
+  -webkit-border-radius: 0px;
+  /* Safari, Chrome */
+  -khtml-border-radius: 0px;
+  /* KHTML */
+  border-radius: 0px;
+  /* CSS3 */
+}
+section#contact .form-group input[name="email"] {
+  height: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  border: none;
+  font-family: 'ProximaNovaLight';
+  font-size: 16px;
+  -moz-border-radius: 0px;
+  /* Firefox */
+  -webkit-border-radius: 0px;
+  /* Safari, Chrome */
+  -khtml-border-radius: 0px;
+  /* KHTML */
+  border-radius: 0px;
+  /* CSS3 */
+}
+section#contact .form-group textarea[type="message"] {
+  width: 100%;
+  margin-top: 30px;
+  height: 145px;
+  padding-top: 25px;
+  padding-left: 30px;
+  border: none;
+  font-family: 'ProximaNovaLight';
+  color: black;
+  font-size: 16px;
+  -moz-border-radius: 0px;
+  /* Firefox */
+  -webkit-border-radius: 0px;
+  /* Safari, Chrome */
+  -khtml-border-radius: 0px;
+  /* KHTML */
+  border-radius: 0px;
+  /* CSS3 */
+}
+section#contact .form-group .btn_center {
+  margin: 0 auto;
+  max-width: 245px;
+}
+section#contact .form-group .btn_center button[type="submit"] {
+  margin-top: 40px;
+  margin-bottom: 115px;
+  width: 100%;
+  background-color: #183048;
+  color: #ffffff;
+  border: none;
+  border-bottom: 2px solid #19F5E8;
+  padding: 20px 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: 'ProximaNovaLight';
+}
+/*======================================    footer    ===========*/
+footer#contacts {
+  position: relative;
+  z-index: 3;
+  background-color: #122D47;
+  color: #ffffff;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  white-space: nowrap;
+}
+footer#contacts p {
+  font-size: 14px;
+  font-family: 'ProximaNovaLight';
+  margin-bottom: 0px;
+  padding-top: 3px;
+}
+footer#contacts ul.design {
+  margin-bottom: 0px;
+}
+footer#contacts ul.design li {
+  display: inline-block;
+}
+footer#contacts ul.design li p {
+  font-size: 14px;
+  font-family: 'ProximaNovaLight';
+  margin-bottom: 0px;
+}
+footer#contacts ul.design li a {
+  font-size: 14px;
+  font-family: 'ProximaNovaBold';
+  text-transform: uppercase;
+  color: #ffffff;
+}
+footer#contacts ul.design li.logo_1 {
+  background-color: #19F5E8;
+  width: 11px;
+  height: 11px;
+  border-radius: 1000px;
+  margin-left: 10px;
+}
+footer#contacts ul.design li.logo_2 {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  border-radius: 1000px;
+  border: 4px solid #19F5E8;
+  top: 4px;
+}
+section#vertical_md {
+  top: 0px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  margin: 0 auto;
+}
+section#vertical_md .container {
+  height: 4390px;
+  margin: 0 auto;
+}
+section#vertical_md .container .vertical-line {
+  margin-left: 0px;
+  margin-right: 0px;
+  left: 20%;
+  min-width: 285px;
+  display: inline-block;
+  white-space: nowrap;
+  height: 4390px;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+/*===================================    	media    ===========*/
+/*============    	АДАПТИВ    ===========*/
+@media (min-width: 0px) and (max-width: 320px) {
+  section#vertical_xs-sm {
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#vertical_xs-sm .container {
+    height: 4390px;
+    margin: 0 auto;
+    max-width: 2px;
+  }
+  section#vertical_xs-sm .container .vertical-line {
+    left: 50%;
+    min-width: 2px;
+    padding: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    height: 4390px;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  section#vertical_md {
+    display: none;
+  }
+  nav#down_menu {
+    display: none;
+  }
+  nav.navbar-fixed-top {
+    width: auto;
+    background-color: rgba(18, 45, 71, 0.9);
+  }
+  nav.navbar-fixed-top .menu img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin: 13px auto;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle {
+    color: #ffffff;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle:hover {
+    color: #19F5E8;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle i {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 17px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu {
+    top: 0px;
+    width: 100%;
+    background-color: rgba(18, 45, 71, 0.9);
+    padding-top: 45px;
+    padding-bottom: 30px;
+    border: none;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu label.img_close {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li {
+    width: 100%;
+    text-align: center;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'ProximaNovaBold';
+    font-size: 14px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a:hover {
+    color: #19F5E8;
+    background: none;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+  }
+  section#First_screen {
+    padding-top: 100px;
+  }
+  section#First_screen .logo {
+    display: none;
+  }
+  section#First_screen h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.45;
+  }
+  section#First_screen h1 br {
+    display: inline-block;
+  }
+  section#First_screen h2 {
+    margin: 18px auto;
+    padding: 10px;
+    line-height: 1.5;
+  }
+  section#First_screen button.projects {
+    margin-bottom: 48px;
+  }
+  section#Services h1 {
+    margin-bottom: 25px;
+  }
+  section#Services h4 {
+    line-height: 1.5;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  section#Services h4 br {
+    display: none;
+  }
+  section#Services .commercial {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .commercial h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .commercial li {
+    line-height: 1.2;
+  }
+  section#Services .domestic {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .domestic h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .domestic li {
+    line-height: 1.2;
+  }
+  section#Services .industrial {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .industrial h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .industrial li {
+    line-height: 1.2;
+  }
+  section#About {
+    padding-bottom: 30px;
+  }
+  section#About p {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#About h4 {
+    margin-left: 15px;
+  }
+  section#About #myCarousel3 .carousel-indicators {
+    bottom: 0px;
+    top: 400px;
+  }
+  section#About #myCarousel3 .carousel-control {
+    left: auto;
+  }
+  section#About #myCarousel3 .carousel-control .carousel_control_right {
+    right: 0px;
+  }
+  section#About .offer br {
+    display: none;
+  }
+  section#About .offer li.check {
+    margin: 40px 5px;
+  }
+  section#quote {
+    background-position: right -100px top;
+  }
+  section#quote .contractors {
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 27px;
+    height: auto;
+  }
+  section#reviewes h1 {
+    margin-bottom: 0px;
+  }
+  section#reviewes h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+  }
+  section#reviewes #myCarousel {
+    padding-bottom: 112px;
+  }
+  section#reviewes #myCarousel .carousel-indicators {
+    margin-bottom: 70px;
+    bottom: 0px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide {
+    display: none;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs {
+    margin-top: 75px;
+    min-width: 93%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs h3 {
+    font-size: 18px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs p {
+    font-size: 16px;
+  }
+  section#contact h1 {
+    margin-bottom: 20px;
+  }
+  section#contact h3 {
+    margin-bottom: 26px;
+    margin-top: 32px;
+  }
+  section#contact .form-group input[name="name"] {
+    margin-bottom: 20px;
+  }
+  section#contact .form-group input[name="email"] {
+    padding-left: 30px;
+  }
+  section#contact .form-group textarea[type="message"] {
+    margin-top: 20px;
+  }
+  section#contact .form-group .btn_center button[type="submit"] {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  section#vertical_xs-sm {
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#vertical_xs-sm .container {
+    height: 4390px;
+    margin: 0 auto;
+  }
+  section#vertical_xs-sm .container .vertical-line {
+    left: 50%;
+    max-width: 2px;
+    padding: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    height: 4390px;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  section#vertical_md {
+    display: none;
+  }
+  nav#down_menu {
+    display: none;
+  }
+  nav.navbar-fixed-top {
+    width: 100%;
+    background-color: rgba(18, 45, 71, 0.9);
+  }
+  nav.navbar-fixed-top .menu img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin: 13px auto;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle {
+    color: #ffffff;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle:hover {
+    color: #19F5E8;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle i {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 17px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu {
+    top: 0px;
+    width: 100%;
+    background-color: rgba(18, 45, 71, 0.9);
+    padding-top: 45px;
+    padding-bottom: 30px;
+    border: none;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu label.img_close {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li {
+    width: 100%;
+    text-align: center;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'ProximaNovaBold';
+    font-size: 14px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a:hover {
+    color: #19F5E8;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+  }
+  section#First_screen {
+    padding-top: 100px;
+  }
+  section#First_screen .logo {
+    display: none;
+  }
+  section#First_screen h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.45;
+  }
+  section#First_screen h1 br {
+    display: inline-block;
+  }
+  section#First_screen h2 {
+    margin: 18px auto;
+    padding: 20px;
+    line-height: 1.5;
+  }
+  section#First_screen button.projects {
+    margin-bottom: 48px;
+  }
+  section#Services h1 {
+    margin-bottom: 25px;
+  }
+  section#Services h4 {
+    line-height: 1.5;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  section#Services h4 br {
+    display: none;
+  }
+  section#Services .commercial {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .commercial h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .commercial li {
+    line-height: 1.2;
+  }
+  section#Services .domestic {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .domestic h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .domestic li {
+    line-height: 1.2;
+  }
+  section#Services .industrial {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .industrial h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .industrial li {
+    line-height: 1.2;
+  }
+  section#About {
+    padding-bottom: 30px;
+  }
+  section#About p {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#About h4 {
+    margin-left: 15px;
+  }
+  section#About #myCarousel3 .carousel-control {
+    left: auto;
+  }
+  section#About #myCarousel3 .carousel-control .carousel_control_right {
+    right: 0px;
+  }
+  section#About .offer br {
+    display: none;
+  }
+  section#About .offer li.check {
+    margin: 40px 5px;
+  }
+  section#quote {
+    background-position: right -100px top;
+  }
+  section#quote .contractors {
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 27px;
+    height: auto;
+  }
+  section#reviewes h1 {
+    margin-bottom: 0px;
+  }
+  section#reviewes h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+  }
+  section#reviewes #myCarousel {
+    padding-bottom: 112px;
+  }
+  section#reviewes #myCarousel .carousel-indicators {
+    margin-bottom: 70px;
+    bottom: 0px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide {
+    display: none;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs {
+    margin-top: 75px;
+    min-width: 93%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs h3 {
+    font-size: 18px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs p {
+    font-size: 16px;
+  }
+  section#contact h1 {
+    margin-bottom: 20px;
+  }
+  section#contact h3 {
+    margin-bottom: 26px;
+    margin-top: 32px;
+  }
+  section#contact .form-group input[name="name"] {
+    margin-bottom: 20px;
+  }
+  section#contact .form-group input[name="email"] {
+    padding-left: 30px;
+  }
+  section#contact .form-group textarea[type="message"] {
+    margin-top: 20px;
+  }
+  section#contact .form-group .btn_center button[type="submit"] {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  section#vertical_xs-sm {
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#vertical_xs-sm .container {
+    height: 4390px;
+    margin: 0 auto;
+  }
+  section#vertical_xs-sm .container .vertical-line {
+    left: 50%;
+    max-width: 2px;
+    padding: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    height: 4390px;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  section#vertical_md {
+    display: none;
+  }
+  nav#down_menu {
+    display: none;
+  }
+  nav.navbar-fixed-top {
+    width: auto;
+    background-color: rgba(18, 45, 71, 0.9);
+  }
+  nav.navbar-fixed-top .menu img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin: 13px auto;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle {
+    color: #ffffff;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle:hover {
+    color: #19F5E8;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle i {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 17px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu {
+    top: 0px;
+    width: 100%;
+    background-color: rgba(18, 45, 71, 0.9);
+    padding-top: 45px;
+    padding-bottom: 30px;
+    border: none;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu label.img_close {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li {
+    width: 100%;
+    text-align: center;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'ProximaNovaBold';
+    font-size: 14px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a:hover {
+    color: #19F5E8;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+  }
+  section#First_screen {
+    padding-top: 100px;
+  }
+  section#First_screen .logo {
+    display: none;
+  }
+  section#First_screen h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.3;
+  }
+  section#First_screen h1 br {
+    display: inline-block;
+  }
+  section#First_screen h2 {
+    margin: 18px auto;
+  }
+  section#First_screen button.projects {
+    margin-bottom: 48px;
+  }
+  section#Services h1 {
+    margin-bottom: 25px;
+  }
+  section#Services h4 {
+    line-height: 1.5;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  section#Services h4 br {
+    display: none;
+  }
+  section#Services .commercial {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .commercial h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .commercial li {
+    line-height: 1.2;
+  }
+  section#Services .domestic {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .domestic h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .domestic li {
+    line-height: 1.2;
+  }
+  section#Services .industrial {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#Services .industrial h2 {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+  section#Services .industrial li {
+    line-height: 1.2;
+  }
+  section#About {
+    padding-bottom: 30px;
+  }
+  section#About p {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#About h4 {
+    margin-left: 15px;
+  }
+  section#About #myCarousel3 .carousel-indicators {
+    bottom: -162px;
+  }
+  section#About #myCarousel3 .carousel-control {
+    left: auto;
+  }
+  section#About #myCarousel3 .carousel-control .carousel_control_right {
+    right: 0px;
+  }
+  section#About .offer br {
+    display: none;
+  }
+  section#About .offer li.check {
+    margin: 40px 5px;
+  }
+  section#quote {
+    background-position: right -14px top;
+  }
+  section#quote .contractors {
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 27px;
+    height: auto;
+  }
+  section#reviewes h1 {
+    margin-bottom: 0px;
+  }
+  section#reviewes h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+  }
+  section#reviewes #myCarousel {
+    padding-bottom: 112px;
+  }
+  section#reviewes #myCarousel .carousel-indicators {
+    margin-bottom: 70px;
+    bottom: 0px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide {
+    display: none;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs {
+    margin-top: 75px;
+    min-width: 93%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs h3 {
+    font-size: 18px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs p {
+    font-size: 16px;
+  }
+  section#contact h1 {
+    margin-bottom: 20px;
+  }
+  section#contact h3 {
+    margin-bottom: 26px;
+    margin-top: 32px;
+  }
+  section#contact .form-group input[name="name"] {
+    margin-bottom: 20px;
+  }
+  section#contact .form-group input[name="email"] {
+    padding-left: 30px;
+  }
+  section#contact .form-group textarea[type="message"] {
+    margin-top: 20px;
+  }
+  section#contact .form-group .btn_center button[type="submit"] {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  section#vertical_sm {
+    top: 0px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#vertical_sm .container {
+    height: 4390px;
+    margin: 0 auto;
+  }
+  section#vertical_sm .container .vertical-line {
+    margin-left: 0px;
+    margin-right: 0px;
+    left: 9%;
+    min-width: 285px;
+    display: inline-block;
+    white-space: nowrap;
+    height: 4390px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  section#vertical_md {
+    display: none;
+  }
+  nav#down_menu {
+    display: none;
+  }
+  nav.navbar-fixed-top {
+    background-color: rgba(18, 45, 71, 0.9);
+  }
+  nav.navbar-fixed-top .menu img {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    margin: 13px auto;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle {
+    color: #ffffff;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle:hover {
+    color: #19F5E8;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle i {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 17px;
+    transform: scale(1.5, 1);
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu {
+    top: 0px;
+    width: 100%;
+    background-color: rgba(18, 45, 71, 0.9);
+    padding-top: 45px;
+    padding-bottom: 30px;
+    border: none;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu label.img_close {
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li {
+    width: 100%;
+    text-align: center;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'ProximaNovaBold';
+    font-size: 14px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a:hover {
+    color: #19F5E8;
+    background: none;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a:focus {
+    background-color: none;
+  }
+  nav.navbar-fixed-top.sticky {
+    margin-top: 0px;
+    position: fixed;
+  }
+  section#First_screen {
+    padding-top: 135px;
+  }
+  section#First_screen .logo {
+    display: none;
+  }
+  section#First_screen h1 {
+    font-size: 42px;
+    letter-spacing: 1.9px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.4;
+  }
+  section#First_screen h1 br {
+    display: none;
+  }
+  section#First_screen h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  section#First_screen button.projects {
+    margin-bottom: 160px;
+  }
+  section#Services h1 {
+    margin-bottom: 25px;
+  }
+  section#Services h4 {
+    line-height: 1.4;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  section#Services h4 br {
+    display: none;
+  }
+  section#Services .commercial {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 55px;
+  }
+  section#Services .commercial h2 {
+    text-align: center;
+  }
+  section#Services .commercial ul {
+    list-style-position: inside;
+    -moz-column-count: 2;
+    /* Firefox */
+    -webkit-column-count: 2;
+    /* Safari and Chrome */
+    column-count: 2;
+  }
+  section#Services .domestic {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 55px;
+  }
+  section#Services .domestic h2 {
+    text-align: center;
+  }
+  section#Services .domestic ul {
+    list-style-position: inside;
+    -moz-column-count: 2;
+    /* Firefox */
+    -webkit-column-count: 2;
+    /* Safari and Chrome */
+    column-count: 2;
+  }
+  section#Services .industrial {
+    height: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 55px;
+  }
+  section#Services .industrial h2 {
+    text-align: center;
+  }
+  section#Services .industrial ul {
+    list-style-position: inside;
+    -moz-column-count: 2;
+    /* Firefox */
+    -webkit-column-count: 2;
+    /* Safari and Chrome */
+    column-count: 2;
+  }
+  section#About {
+    padding-bottom: 25px;
+  }
+  section#About .col_sm_8 {
+    min-width: 450px;
+    max-width: 450px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  section#About p {
+    margin-bottom: 30px;
+  }
+  section#About #myCarousel3 .carousel-indicators {
+    top: 535px;
+  }
+  section#About .offer {
+    margin-top: 35px;
+    margin-bottom: 47px;
+  }
+  section#About .offer br {
+    display: none;
+  }
+  section#About .offer li.check {
+    margin: 44px 30px;
+  }
+  section#About .offer p {
+    margin-top: 40px;
+    width: 85%;
+  }
+  section#quote .contractors {
+    min-width: 705px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 0px;
+    padding-top: 27px;
+    height: auto;
+  }
+  section#reviewes h4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.5;
+  }
+  section#reviewes h4 br {
+    display: none;
+  }
+  section#reviewes #myCarousel {
+    padding-bottom: 85px;
+  }
+  section#reviewes #myCarousel .carousel-indicators {
+    bottom: 38px;
+    margin-bottom: 0px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide {
+    width: auto;
+    display: none;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs {
+    width: auto;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 85px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs h3 {
+    font-size: 18px;
+  }
+  section#reviewes #myCarousel .carousel-inner .item .slide_visible_xs p {
+    font-size: 16px;
+  }
+  section#contact h1 {
+    margin-bottom: 25px;
+  }
+  section#contact .form-group input[name="name"] {
+    margin-bottom: 20px;
+  }
+  section#contact .form-group input[name="email"] {
+    padding-left: 30px;
+  }
+  section#contact .form-group textarea[type="message"] {
+    margin-top: 20px;
+  }
+  section#contact .form-group .btn_center button[type="submit"] {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  section#vertical_lg {
+    top: 0px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    margin: 0 auto;
+  }
+  section#vertical_lg .container {
+    height: 4390px;
+    margin: 0 auto;
+  }
+  section#vertical_lg .container .vertical-line {
+    display: inline-block;
+    white-space: nowrap;
+    height: 4390px;
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  section#vertical_md {
+    display: none;
+  }
+  nav.navbar-fixed-top {
+    background-color: none;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  nav.navbar-fixed-top .container {
+    width: 100%;
+  }
+  nav.navbar-fixed-top .menu img.img-responsive {
+    display: none;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle {
+    color: #ffffff;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle:hover {
+    color: #19F5E8;
+  }
+  nav.navbar-fixed-top .menu .dropdown-toggle i {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 17px;
+    transform: scale(1.5, 1);
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu {
+    top: 0px;
+    width: 100%;
+    background-color: rgba(18, 45, 71, 0.9);
+    padding-top: 45px;
+    padding-bottom: 30px;
+    border: none;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu label.img_close {
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li {
+    width: 100%;
+    text-align: center;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'ProximaNovaBold';
+    font-size: 14px;
+  }
+  nav.navbar-fixed-top .menu ul.dropdown-menu li a:hover {
+    color: #19F5E8;
+  }
+  nav.navbar-fixed-top.sticky {
+    display: none;
+  }
+  nav#down_menu {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  footer#contacts .container {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .back-top {
+    cursor: pointer;
+  }
+  .back-top #back-top {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 110px;
+    right: 3.125%;
+    z-index: 7;
+    border-bottom: 2px solid #3AE2CE;
+    background: rgba(11, 34, 57, 0.8);
+  }
+  .back-top #back-top:hover {
+    background: #0b2239;
+  }
+  .back-top #back-top a {
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+  }
+  .back-top #back-top a img {
+    padding: 19px 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
