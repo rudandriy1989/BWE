@@ -777,6 +777,7 @@ footer#contacts ul.design li.logo_2 {
   top: 4px;
 }
 section#vertical_md {
+  cursor: url("../img/cursor-copy.png"), auto;
   top: 0px;
   position: fixed;
   z-index: 2;
@@ -807,6 +808,7 @@ section#vertical_md .container .vertical-line {
     z-index: 2;
     width: 100%;
     margin: 0 auto;
+    cursor: url("../img/cursor-copy.png"), auto;
   }
   section#vertical_xs-sm .container {
     height: 4390px;
@@ -1048,6 +1050,7 @@ section#vertical_md .container .vertical-line {
     z-index: 2;
     width: 100%;
     margin: 0 auto;
+    cursor: url("../img/cursor-copy.png"), auto;
   }
   section#vertical_xs-sm .container {
     height: 4390px;
@@ -1283,6 +1286,7 @@ section#vertical_md .container .vertical-line {
     z-index: 2;
     width: 100%;
     margin: 0 auto;
+    cursor: url("../img/cursor-copy.png"), auto;
   }
   section#vertical_xs-sm .container {
     height: 4390px;
@@ -1519,6 +1523,7 @@ section#vertical_md .container .vertical-line {
     z-index: 2;
     width: 100%;
     margin: 0 auto;
+    cursor: url("../img/cursor-copy.png"), auto;
   }
   section#vertical_sm .container {
     height: 4390px;
@@ -1782,6 +1787,7 @@ section#vertical_md .container .vertical-line {
     z-index: 2;
     width: 100%;
     margin: 0 auto;
+    cursor: url("../img/cursor-copy.png"), auto;
   }
   section#vertical_lg .container {
     height: 4390px;
